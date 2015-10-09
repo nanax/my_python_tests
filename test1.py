@@ -12,6 +12,11 @@ def my_input_number():
 	return inum
 print "Quadratic term coefficient"
 a=my_input_number()
+while True:
+	if a==0:
+		print "cannot be zero,type in again"
+		a=my_input_number()
+	else:break
 print "term coefficient"
 b=my_input_number()
 print "Constant term"
@@ -23,3 +28,4 @@ elif (b**2-4*a*c)==0:
 	print "x1=x2="+str(-b/(2*a))
 else:
 	print "this equation has no solution"
+a=raw_input("press any key to continue")
