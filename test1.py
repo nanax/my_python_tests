@@ -1,4 +1,4 @@
-"""solving a quadratic equation"""
+"""This is a programme solving a quadratic equation"""
 from math import sqrt
 def my_input_number():
 	sign=True

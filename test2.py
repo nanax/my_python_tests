@@ -1,4 +1,6 @@
-#examin scores
+"""This is a programme which arranges examin scores and 
+find the maximum/minmum number of the scores
+"""
 def average_score(scores):
 	return sum(scores)/len(scores)
 def sort_by_score(students):
